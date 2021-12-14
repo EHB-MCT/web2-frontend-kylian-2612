@@ -1,0 +1,23 @@
+{
+  "name": "web2-frontend-kylian-2612",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EHB-MCT/web2-frontend-kylian-2612.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EHB-MCT/web2-frontend-kylian-2612/issues"
+  },
+  "homepage": "https://github.com/EHB-MCT/web2-frontend-kylian-2612#readme",
+  "dependencies": {
+    "webpack": "^5.65.0"
+  }
+}
