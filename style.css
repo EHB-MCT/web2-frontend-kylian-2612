@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+h1 {
+    font-size: 3.5em sans-serif;
+    text-align: center;
+    padding: 3rem;
+    background-color: #E41535; 
+    text-decoration: none;
+}
+
+h1 a{
+     text-decoration: none;
+     color: white;
+}
+
+nav {
+    background-color: #02436B ;
+}
+
+nav ul{
+    text-align: center;
+    cursor: grab;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 1.5em;
+    margin-inline: 1.5rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a{
+    text-decoration: none; 
+    color: white;
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color: #02436B;
+} 
+
+ li:hover{
+    background-color: white;
+    color: #02436B;
+}
+
+.landingpage{
+    height: 76vh;
+    width: auto;
+    background-image: url("images/Rugby_Jeugdvereniging-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;   
+}
+
+#GenerateButton{
+    display: flex;
+    justify-content: center;
+    padding-top: 35vh;
+}
+
+.generate{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    background-color: #02436B;
+    padding: 25px 50px 25px;
+    border:3.5px solid white;
+    border-radius: 15px;
+    cursor: grab;
+}
+
+.generate a{
+    color: white;
+    text-decoration: none;
+}
+
+.games{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 76vh;
+}
+
+.myGames{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 76vh;
+}
+
+.addGame{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    color: #02436B;
+}
+
