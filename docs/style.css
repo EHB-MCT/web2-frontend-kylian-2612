@@ -7,9 +7,9 @@
 
 
 h1 {
-    font-size: 3.5em sans-serif;
+    font-size: 55px;
     text-align: center;
-    padding: 3rem;
+    padding: 2.5rem;
     background-color: #E41535; 
     text-decoration: none;
 }
@@ -57,7 +57,7 @@ nav ul li a:hover{
 .landingpage{
     height: 76vh;
     width: auto;
-    background-image: url("images/Rugby_Jeugdvereniging-2.jpg");
+    background-image: url("images/photo-1550745165-9bc0b252726f.jfif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;   
@@ -85,30 +85,81 @@ nav ul li a:hover{
     text-decoration: none;
 }
 
-.games{
+#container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-    height: 76vh;
-}
-
-.myGames{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    height: 76vh;
-}
-
-.addGame{
-    display: flex;
     justify-content: center;
+    margin: 5em;
+}
+
+.console{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap ;
+    justify-content: center;
+    color: white;
+    background: #E41535;
+    border: 5px solid #02436B;
+    width: 30%;
+    height: 25vh ;
+    margin: 5px;
+}
+
+ #consoleGames {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;  
+    margin: 2.5em;
+}
+
+.consoleGames{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap ;
+    justify-content: center;
+    color: white;
+    background: #E41535;
+    border: 5px solid #02436B;
+    width: 30%;
+    height: 25vh ;
+    margin: 5px;
+}
+
+
+#pcGames{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;  
+    margin: 5em;
+}
+
+.pcGames{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap ;
+    justify-content: center;
+    color: white;
+    background: #E41535;
+    border: 5px solid #02436B;
+    width: 30%;
+    height: 25vh ;
+    margin: 5px;
 }
 
 footer{
     display: flex;
     justify-content: center;
+    align-items: center;
     color: #02436B;
+    background-color: transparent;
 }
 

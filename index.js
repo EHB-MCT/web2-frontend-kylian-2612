@@ -1,11 +1,11 @@
 const { MongoClient } = require("mongodb");
  
 // Replace the following with your Atlas connection string                                                                                                                                        
-const url = "mongodb+srv://admin:admin@cluster0.8226wva.mongodb.net/Games?retryWrites=true&w=majority";
+const url = "mongodb+srv://admin:admin@cluster0.8226wva.mongodb.net/Consoles?retryWrites=true&w=majority";
 const client = new MongoClient(url);
  
  // The database to use
- const dbName = "Games";
+ const dbName = "Consoles";
                       
  async function run() {
     try {
@@ -14,15 +14,12 @@ const client = new MongoClient(url);
          const db = client.db(dbName);
 
          // Use the collection "Outdoor"
-         const col = db.collection("Outdoor");
+         const col = db.collection("Games");
 
          // Construct a document                                                                                                                                                              
          let GameDocument = {
-          Name:"De vloer is lava",
-          Categorie:"Tactiek",
-          Plaats:"Buiten",
-          Omschrijving:"Dit is een variant van tikkertje, hierbij mogen de spelers de grond niet permanent raken maar bijvoorbeeld telkens maar 10seconden dit geeft de tikker een grotere kans om te winnen."
-         }
+          Name:"Marvel's Spider-Man (2019)",
+         };
 
          // Insert a single document, wait for promise so we can read it back
          const p = await col.insertOne(GameDocument);
